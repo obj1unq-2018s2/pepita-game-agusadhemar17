@@ -1,4 +1,6 @@
 import ciudades.*
+import comidas.*
+import roque.*
 
 object pepita {
 	var property energia = 100
@@ -24,4 +26,13 @@ object pepita {
 		energia -= self.energiaParaVolar(posicion.distance(nuevaPosicion))
 		self.posicion(nuevaPosicion)
 	}	
+	method meEncontraron(){
+		roque.darComida(comida)
+		self.come(comida)
+		//roque.tengoComida = false
+	}
+	//method posicionAleatoria() {
+		//	return game.at(1.randomUpTo(10), 1.randomUpTo(10))
+		//}
+	
 }
