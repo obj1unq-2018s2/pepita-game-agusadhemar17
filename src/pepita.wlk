@@ -27,10 +27,13 @@ object pepita {
 		self.posicion(nuevaPosicion)
 	}	
 	method meEncontraron(){
+		// TODO GRAVE ¿De dónde sale la comida?
 		roque.darComida(comida)
 		self.come(comida)
 		//roque.tengoComida = false
 	}
+	
+	// TODO No dejes código comentado en la entrega
 	//method posicionAleatoria() {
 		//	return game.at(1.randomUpTo(10), 1.randomUpTo(10))
 		//}

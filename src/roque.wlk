@@ -13,6 +13,7 @@ object roque {
 	method darComida(comida){
 		var tengoComida = true
 		if(tengoComida){
+			// TODO ¿De dónde sale ese 80 fijo? Debería ser la energía de la comida.
 			pepita.energia(80) 
 			comida.meEntregan()
 		 	}
